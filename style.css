@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+#title{
+    text-align: center;
+
+}
+p{
+    clear:both;
+}
+
+.section{
+    background-color: gray;
+    padding:20px;
+    border:5px solid black;
+    margin:20px;
+    width: 30%;
+    position:relative;
+    float:left;
+    
+}
+
+.chicken{
+    background-color: brown;
+    padding:10px;
+    display:table;
+    text-align: center;
+    float:right;
+}
+.beef{
+    background-color: rgb(177, 177, 74);
+    padding:10px;
+    display:table;
+    text-align: center;
+    float:right;
+}
+.fish{
+    background-color: rgb(86, 86, 187);
+    padding:10px;
+    display:table;
+    text-align: center;
+    float:right;
+   
+}
+/***LARGE DEVICE****/
+@media(min-width:992px){
+
+
+    .section{
+        background-color: gray;
+        padding:20px;
+        border:5px solid black;
+        margin:10px;
+        width: 30%;
+        position:relative;
+        float:left;
+    }
+    .section1{
+        background-color: gray;
+        padding:20px;
+        border:5px solid black;
+        margin:10px;
+        width: 30%;
+        position:relative;
+        float:left;
+    }
+
+}
+/****TABLET****/
+@media(min-width: 768px) and (max-width: 991px){
+        #title{
+         text-align:center;
+        }
+        .section{
+            background-color: gray;
+            padding:20px;
+            border:5px solid black;
+            width: 47%;
+            margin:10px;
+            position:relative;
+            float:left;
+        }
+
+        .section1{
+            background-color: gray;
+            padding:20px;
+            border:5px solid black;
+            width: 97%;
+            margin:10px;
+            position:relative;
+            float:left;
+        } 
+}
+
+/****Phone****/
+@media (max-width: 767px){
+    #title{
+        text-align:center;
+    }
+    .section{
+        background-color: gray;
+        padding:20px;
+        border:5px solid black;
+        width: 50%;
+        margin:10px;
+        position:relative;
+        float:left;
+    }
+
+    .section1{
+        background-color: gray;
+        padding:20px;
+        border:5px solid black;
+        width: 50%;
+        margin:10px;
+        position:relative;
+        float:left;
+    } 
+}
